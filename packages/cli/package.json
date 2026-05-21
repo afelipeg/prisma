@@ -1,0 +1,19 @@
+{
+  "name": "@prism/cli",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "main": "./src/index.ts",
+  "bin": {
+    "prism": "./src/index.ts"
+  },
+  "dependencies": {
+    "@prism/core": "workspace:*",
+    "@prism/compiler": "workspace:*",
+    "@prism/runtime": "workspace:*",
+    "@prism/mcp": "workspace:*"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.1.13"
+  }
+}
