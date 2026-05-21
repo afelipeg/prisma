@@ -1,0 +1,3 @@
+[install]
+# Workspaces are declared in root package.json; Bun resolves them automatically.
+auto = "fallback"
